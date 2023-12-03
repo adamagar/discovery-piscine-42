@@ -1,0 +1,37 @@
+.container{
+	text-align: center;
+	color: white;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url(https://www.dishbyrish.co.uk/wp-content/uploads/2021/10/20211013173317_IMG_5666-scaled.jpg);
+	background-size:cover;
+	background-position:center;
+	background-attachment: fixed;
+}
+h1 {
+	font-weight: 700;
+	font-size: 3rem;
+}
+.blank{
+	width: 100%;
+	min-height: 60vh;
+	background-color: black;
+	position: relative;
+}
+h3 {
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.second{
+	background-image: url(https://img.freepik.com/premium-photo/turkey-gaziantep-pistachio-baklava-varieties-traditional-desserts_693630-13245.jpg?w=2000);
+	background-attachment: fixed;
+	height: 1200px;
+}

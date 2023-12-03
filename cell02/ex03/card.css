@@ -1,0 +1,63 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background: #f7f7f7;
+}
+
+.profile-card {
+	width:300px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	box-shadow: 0 4px 8px;
+	border-radius: 10px;
+	position:relative;
+}
+
+.title {
+	margin-top: 0;
+}
+
+.profile-picture {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 10px 0;
+}
+
+.login {
+	font-weight: bold;
+}
+
+.description {
+	color: #777;
+	font-size: 0.9em;
+}
+.social-networks {
+	display: flex;
+	justify-contentL center;
+	gap: 10px;
+	margin: 10px 0;
+}
+
+.social-networks img {
+	width: 20px;
+	height: 20px;
+}
+
+.contact-button {
+	background-color: #000;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+	position: absolute;
+	bottom: -20px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius:5px;
+}

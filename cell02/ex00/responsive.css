@@ -1,0 +1,12 @@
+.table{
+	overflow-x: auto;
+	width: 100%;
+}
+.first-column{
+    background-color: green;
+	width: 50%;
+}
+.second-column{
+    background-color: orange;
+	width: 50%;
+}
